@@ -302,19 +302,25 @@ border-radius: 50%;
 </div>
 <div class="my-skills text-center">
 	<div class="container">
+		<h3 align = "center">MY SKILLS</h3>
+		<div class="strip text-center"><img src="images/ser.png" alt=" "/></div>
 		<div class="skill-grids">
 					<div class="col-md-2 col-md-offset-1 skills-grid text-center">
-					</div>
-					<div class="col-md-2 col-md-offset-1 skills-grid text-center">
 						<div class="circle" id="circles-1"></div>
-						<p>ANDROID</p>
+						<p>JAVA</p>
 					</div>
 					<div class="col-md-2 col-md-offset-1 skills-grid text-center">
 						<div class="circle" id="circles-2"></div>
-						<p>MACHINE LEARNING</p>
+						<p>HTML</p>
+					</div>
+					<div class="col-md-2 col-md-offset-1 skills-grid text-center">
+						<div class="circle" id="circles-3"></div>
+						<p>CSS</p>
 					</div>
 					</div>
 			                <div class="col-md-2 col-md-offset-1 skills-grid text-center">
+						<div class="circle" id="circles-4"></div>
+						<p>Problem Solving</p>
 					</div>
 					<div class="clearfix"> </div>
 				 <script type="text/javascript" src="js/circles.js"></script>
@@ -322,8 +328,8 @@ border-radius: 50%;
 								var colors = [
 										['#ffffff','#6ed4c0'], ['#ffffff','#6ed4c0'], ['#ffffff','#6ed4c0'], ['#ffffff','#6ed4c0'], ['#ffffff','#6ed4c0'], ['#ffffff','#6ed4c0']
 									];
-								for (var j = 1; j <= 1; j++) {
-									var child = document.getElementById('circles-' + j),
+								for (var i = 1; i <= 1; i++) {
+									var child = document.getElementById('circles-' + i),
 										percentage = 60;
 										
 									Circles.create({
@@ -333,11 +339,11 @@ border-radius: 50%;
 										width:      10,
 										number:   percentage / 1,
 										text:       '%',
-										colors:     colors[j - 1]
+										colors:     colors[i - 1]
 									});
 								}
-								for (var j = 2; j <= 2; j++){
-									var child = document.getElementById('circles-' + j),
+								for (var i = 2; i <= 2; i++){
+									var child = document.getElementById('circles-' + i),
 										percentage = 70;
 										
 									Circles.create({
@@ -347,7 +353,35 @@ border-radius: 50%;
 										width:      10,
 										number:   percentage / 1,
 										text:       '%',
-										colors:     colors[j - 1]
+										colors:     colors[i - 1]
+									});
+								}
+								for (var i = 3; i <= 3; i++){
+									var child = document.getElementById('circles-' + i),
+										percentage = 50;
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+								for (var i = 4; i <= 4; i++){
+									var child = document.getElementById('circles-' + i),
+										percentage = 75;
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     75,
+										width:      10,
+										number:   percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
 									});
 								}
 						
@@ -356,6 +390,7 @@ border-radius: 50%;
 		
 	</div>	
 </div>	
+	
 <div class="contact" id="contact">
 	<div class="container">
 		<div class="contact-info text-center">
