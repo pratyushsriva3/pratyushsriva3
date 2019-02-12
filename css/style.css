@@ -388,7 +388,7 @@ background: url(../images/port-back.jpg) no-repeat 0px 0px;
 }
 .test-banner {
   background: #ffffff;
-  border-top: 15px solid #52edc7;
+  border-top: 15px solid #006bb3;
   width: 54%;
   margin: 50px auto 0 auto;
   padding: 82px 45px;
@@ -453,7 +453,7 @@ padding:0 0 60px 0;
 background:#eeeeee;
 }
 .strip-line{
-  background: #52edc7;
+  background: #006bb3;
   width: 20%;
   margin: 0 auto;
   padding: 1px;
@@ -605,7 +605,7 @@ color:#ffffff;
 font-weight:400;
 }
 .footer p a{
-color:#52edc7;
+color:#006bb3;
 }
 .footer p a:hover{
 color:#ffffff;
